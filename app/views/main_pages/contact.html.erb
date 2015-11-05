@@ -1,0 +1,293 @@
+<%= provide(:title, "Contact") %>
+<!-- main-container start -->
+<!-- ================ -->
+<section class="main-container">
+	<div class="container">
+		<div class="row">
+			<!-- main start -->
+			<!-- ================ -->
+			<div class="main col-md-12">
+				<!-- page-title start -->
+				<!-- ================ -->
+				<h1 class="page-title">Contact Us</h1>
+				<div class="separator-2"></div>
+				<!-- page-title end -->
+				<p class="lead">Please Select the Contact Request form and fill out the items and hit submit.</p>
+				<!-- isotope filters start -->
+				<div class="filters">
+					<ul class="nav nav-pills">
+						<li class="active"><a href="#" data-filter=".support">Support Request Form</a></li>
+						<li><a href="#" data-filter=".sales">Purchase Request Form</a></li>
+					</ul>
+				</div>
+				<!-- isotope filters end -->
+				<div class="isotope-container row grid-space-10">
+					<div class="col-sm-12 isotope-item support">
+						<div class="image-box shadow bordered text-center mb-20">
+							<div class="overlay-container support-request-form">
+								<div class="contactform-header">
+									<h3>Support Request Form</h3>
+								</div>
+								<form class="form-horizontal" method="post">
+									<h6>Please select the program(s) you need support for<span class="text-danger small">*</span>:</h6>
+									<div class="form-group check-center-group">
+										<div class="check-alignment">
+											<label class="">
+												<input type="checkbox"> <a href="#">HydraCAD™ </a>
+											</label>
+											<label>
+												<input type="checkbox"> <a href="#">HydraCAD-R™</a>
+											</label>
+										</div>
+										<div class="check-alignment">
+											<label>
+												<input type="checkbox"> <a href="#">HydraCALC™</a>
+											</label>
+											<label>
+												<input type="checkbox"> <a href="#">HydraCALC for Revit™</a>
+											</label>
+										</div>
+										<div class="check-alignment">
+											<label>
+												<input type="checkbox"> <a href="#">HydraLIST™ </a>
+											</label>
+											<br>
+											<label>
+												<input type="checkbox"> <a href="#">HydraBID™ </a>
+											</label>
+										</div>
+									</div>
+									<div class="form-group">
+										<label class="col-sm-2 control-label">Name <span class="text-danger small">*</span> </label>
+										<div class="col-sm-10">
+											<input type="text" name="Name" class="form-control" placeholder="First Last" required>
+										</div>
+									</div>
+									<div class="form-group">
+										<label class="col-sm-2 control-label">Title <span class="text-danger small">*</span> </label>
+										<div class="col-sm-10">
+											<input type="text" name="Title" class="form-control" placeholder="Engineer" required>
+										</div>
+									</div>
+									<div class="form-group">
+										<label class="col-sm-2 control-label">Company <span class="text-danger small">*</span> </label>
+										<div class="col-sm-10">
+											<input type="text" name="Company" class="form-control" placeholder="Company Name" required>
+										</div>
+									</div>
+									<div class="form-group">
+										<label class="col-sm-2 control-label">Address <span class="text-danger small">*</span> </label>
+										<div class="col-sm-10">
+											<input type="text" name="Address" class="form-control" placeholder="" required>
+										</div>
+									</div>
+									<div class="form-group">
+										<label class="col-sm-2 control-label">Email <span class="text-danger small">*</span> </label>
+										<div class="col-sm-10">
+											<input type="email" name="Email" class="form-control" placeholder="example@mail.com" required>
+										</div>
+									</div>
+									<div class="form-group">
+										<label class="col-sm-2 control-label">Phone <span class="text-danger small">*</span> </label>
+										<div class="col-sm-10">
+											<input type="tel" name="Phone" class="form-control" placeholder="(123) 456-7890" required>
+										</div>
+									</div>
+									<div class="form-group">
+										<label class="col-sm-2 control-label">Fax</label>
+										<div class="col-sm-10">
+											<input type="tel" name="Fax" class="form-control" placeholder="(123) 456-7890" >
+										</div>
+									</div>
+									<div class="form-group">
+										<label class="col-sm-2 control-label">Brief explanation of support request:</label>
+										<div class="col-sm-10">
+											<textarea class="form-control" rows="3"></textarea>
+										</div>
+									</div>
+									<div class="form-group">
+										<div class="col-sm-offset-2 col-sm-10">
+											<div class="">
+												<label>
+													<span class="text-danger small">*</span> = Required Information
+												</label>
+											</div>
+										</div>
+									</div>
+									<div class="form-group">
+										<div class="col-sm-offset-2 col-sm-10">
+											<button type="submit" class="btn btn-default btn-animated" value="submit">Submit</button>
+											<button type="reset" class="btn btn-print btn-animated" value="reset">Reset Form</button>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-12 isotope-item sales">
+						<div class="image-box shadow bordered text-center mb-20">
+							<div class="overlay-container sales-request-form">
+								<div class="contactform-header">
+								<h3>Sales Call Request Form</h3>
+								</div>
+								<form class="form-horizontal" method="post" >
+									<div class="form-group">
+										<input type="hidden" name="Subject" value="HydraCAD Information">
+										<input type="hidden" name="ToEmail" value="hydrasales@hydracad.com">
+									</div>
+										<h6>Please select the Hydratec program(s) you are interested in<span class="text-danger small">*</span>:</h6>
+										<div class="form-group check-center-group">
+											<div class="check-alignment">
+												<label class="">
+													<input type="checkbox"> <a href="#">HydraCAD™</a>
+												</label>
+												<label>
+													<input type="checkbox"> <a href="#">HydraCAD-R™</a>
+												</label>
+											</div>
+											<div class="check-alignment">
+												<label>
+													<input type="checkbox"> <a href="#">HydraCALC™</a>
+												</label>
+												<label>
+													<input type="checkbox"> <a href="#">HydraCALC for Revit™</a>
+												</label>
+											</div>
+											<div class="check-alignment">
+												<label>
+													<input type="checkbox"> <a href="#">HydraLIST™ </a>
+												</label>
+												<br>
+												<label>
+													<input type="checkbox"> <a href="#">HydraBID™ </a>
+												</label>
+											</div>
+										</div>
+										<h6>Please select the Autodesk program(s) you are interested in:</h6>
+										<div class="form-group check-center-group">
+											<div class="check-alignment">
+												<label>
+													<input type="checkbox"> <a href="#">AutoCAD or AutoCAD MEP</a>
+												</label>
+												<label>
+													<input type="checkbox"> <a href="#">AutoCAD NavisWorks<sup>®</sup></a>
+												</label>
+											</div>
+											<div class="check-alignment">
+												<label>
+													<input type="checkbox"> <a href="#">AutoCAD Building Design Suite Premium (Revit)</a>
+												</label>
+												<label>
+													<input type="checkbox"> <a href="#">Design Services</a>
+												</label>
+											</div>
+											<div class="check-alignment">
+												<label>
+													<input type="checkbox"> <a href="#">AutoCAD Building Design Suite Ultimate (Revit and Navis Manage)</a>
+												</label>
+											</div>
+										</div>
+									<div class="form-group"></div>
+									<div class="form-group">
+										<label class="col-sm-2 control-label">Name <span class="text-danger small">*</span> </label>
+										<div class="col-sm-10">
+											<input type="text" name="Name" class="form-control" placeholder="First Last" required>
+										</div>
+									</div>
+									<div class="form-group">
+										<label class="col-sm-2 control-label">Title <span class="text-danger small">*</span> </label>
+										<div class="col-sm-10">
+											<input type="text" name="Title" class="form-control" placeholder="Engineer" required>
+										</div>
+									</div>
+									<div class="form-group">
+										<label class="col-sm-2 control-label">Company <span class="text-danger small">*</span> </label>
+										<div class="col-sm-10">
+											<input type="text" name="Company" class="form-control" placeholder="Company Name" required>
+										</div>
+									</div>
+									<div class="form-group">
+										<label class="col-sm-2 control-label">Address <span class="text-danger small">*</span> </label>
+										<div class="col-sm-10">
+											<input type="text" name="Address" class="form-control" placeholder="" required>
+										</div>
+									</div>
+									<div class="form-group">
+										<label class="col-sm-2 control-label">Email <span class="text-danger small">*</span> </label>
+										<div class="col-sm-10">
+											<input type="email" name="Email" class="form-control" placeholder="example@mail.com" required>
+										</div>
+									</div>
+									<div class="form-group">
+										<label class="col-sm-2 control-label">Phone <span class="text-danger small">*</span> </label>
+										<div class="col-sm-10">
+											<input type="tel" name="Phone" class="form-control" placeholder="(123) 456-7890" required>
+										</div>
+									</div>
+									<div class="form-group">
+										<label class="col-sm-2 control-label">Fax</label>
+										<div class="col-sm-10">
+											<input type="tel" name="Fax" class="form-control" placeholder="(123) 456-7890" >
+										</div>
+									</div>
+									<div class="form-group">
+										<label class="col-sm-2 control-label">Comments/<br>Questions:</label>
+										<div class="col-sm-10">
+											<textarea class="form-control" rows="3"></textarea>
+										</div>
+									</div>
+									<div class="form-group">
+										<div class="col-sm-offset-2 col-sm-10">
+											<div class="">
+												<label>
+													<span class="text-danger small">*</span> = Required Information
+												</label>
+											</div>
+										</div>
+									</div>
+									<div class="form-group">
+										<div class="col-sm-offset-2 col-sm-10">
+											<button type="submit" class="btn btn-default btn-animated" value="submit">Submit</button>
+											<button type="reset" class="btn btn-print btn-animated" value="submit">Reset Form</button>
+										</div>
+									</div>
+									<input type="hidden" name="Product" value="Information">
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- main end -->
+			</div>
+		</section>
+		<!-- main-container end -->
+		<section class="section pv-40 background-img-6 dark-translucent-bg" style="background-position:50% 60%;">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="call-to-action text-center">
+								<div class="row">
+									<div class="col-sm-8 col-sm-offset-2">
+										<h2 class="title">Subscribe to Our Newsletter</h2>
+										<p>To receive notification of Hydratec updates and important events, subscribe to the HydraNEWS newsletter</p>
+										<div class="separator"></div>
+										<form class="form-inline margin-clear" name="ccoptin" action="http://visitor.r20.constantcontact.com/d.jsp" target="_blank" method="post">
+											<div class="form-group has-feedback">
+												<label class="sr-only" for="subscribe2">Email address</label>
+												<input type="email" name="ea" class="form-control" id="subscribe2" placeholder="Enter email" required="">
+												<i class="fa fa-envelope form-control-feedback"></i>
+												<input type="hidden" name="llr" value="fnh6u5bab">
+												<input type="hidden" name="m" value="1101613931941">
+												<input type="hidden" name="p" value="oi">
+											</div>
+											<button type="submit" name="go" value="Join" class="btn btn-gray-transparent btn-animated margin-clear">Submit <i class="fa fa-send"></i></button>
+										</form>
+										<p>Privacy by <i class="fa fa-check-square-o"></i> <b class="safe-sub">Safe Subscribe</b><sup class="safe-sub">SM</sup></p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="clearfix"></div>

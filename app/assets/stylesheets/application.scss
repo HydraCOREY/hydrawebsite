@@ -1,0 +1,28 @@
+
+/* stuff to make things pretty */
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+/* Plugins */
+@import "simple_line_icons";
+@import "project/animate";
+@import "project/animations";
+@import "project/hover-min";
+@import "project/hover";
+@import "project/magnific-popup";
+@import "project/owl.carousel";
+@import "project/owl.transitions";
+@import "project/settings-ie8";
+@import "project/settings";
+@import "boss/scaffolds";
+@import "boss/vspacing.min";
+
+/* stylesheets */
+@import "colors";
+@import "other_style";
+@import "style";
+@import "skins/light_blue";
+@import "custom";
