@@ -23,7 +23,7 @@ Rails.application.configure do
   #   port: 443,
   #   enable_starttls_auto: true,
   #   user_name: "corey",
-  #   password: 'IHateChris!',
+  #   password: '#',
   #   domain: 'hydratecinc.com',
   #   authentication: 'plain'
   # }
